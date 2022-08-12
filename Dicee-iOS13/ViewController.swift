@@ -10,11 +10,12 @@ import UIKit
 
  
 class ViewController: UIViewController {
+    // InterfaceBuilder Outlet connected to image
     
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
     
-    
+    // button is connected to View Controller (action)
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
